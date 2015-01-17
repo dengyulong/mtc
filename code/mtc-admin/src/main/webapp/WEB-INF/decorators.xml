@@ -1,0 +1,13 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>**ajax=true</pattern>
+        <pattern>**login.jsp**</pattern>
+        <pattern>/admin/login*</pattern>
+<!--         <pattern>/admin/circles*</pattern> -->
+        <pattern>/admin/shop/goods/list*</pattern>
+        <pattern>/admin/manager/clubs*</pattern>
+    </excludes>
+    <decorator name="default" page="default.jsp">
+        <pattern>/admin</pattern>
+    </decorator>
+</decorators>
