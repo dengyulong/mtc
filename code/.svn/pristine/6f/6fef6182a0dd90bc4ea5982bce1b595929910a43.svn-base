@@ -1,0 +1,60 @@
+# Page titles
+webapp.name=iRead\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF
+webapp.tagline=Providing integration and style to open source Java frameworks.
+index.title=Welcome
+userList.title=User List
+userForm.title=User Details
+
+# Messages used for labels, errors and success messages
+user.saved=User {0} has been saved successfully.
+user.missing=No user found with this id.
+user.deleted=User {0} successfully deleted.
+
+user.id=User Id
+user.firstName=First Name
+user.lastName=Last Name
+user.username=\u5E10\u53F7
+user.password=\u5BC6\u7801
+user.email=E-Mail
+date.format=yyyy-MM-dd HH:mm:ss
+typeMismatch.java.util.Date={0} is an invalid date.
+
+# -- validator errors --
+errors.required={0} \u4E3A\u5FC5\u987B\u5B57\u6BB5.
+errors.minlength={0} can not be less than {1} characters.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.invalid={0} is invalid.
+
+errors.byte={0} must be a byte.
+errors.short={0} must be a short.
+errors.integer={0} must be an integer.
+errors.long={0} must be a long.
+errors.float={0} must be a float.
+errors.double={0} must be a double.
+
+errors.date={0} is not a date.
+errors.range={0} is not in the range {1} through {2}.
+errors.creditcard={0} is an invalid credit card number.
+errors.email={0} is an invalid e-mail address.
+
+button.add=Add
+button.cancel=Cancel
+button.delete=Delete
+button.done=Done
+button.save=Save
+button.search=Search
+
+# -- begin login --
+login.errors.user.notexists=\u8BE5\u7528\u6237\u4E0D\u5B58\u5728
+login.errors.fail=\u5BC6\u7801\u4E0D\u6B63\u786E
+login.errors.username.required=\u5E10\u53F7\u4E0D\u80FD\u4E3A\u7A7A
+login.errors.password.required=\u5BC6\u7801\u4E0D\u80FD\u4E3A\u7A7A
+# -- end login --
+
+#--- begin change password ---
+required.password=\u8BF7\u8F93\u5165\u539F\u5BC6\u7801
+dismatch.password=\u539F\u5BC6\u7801\u4E0D\u6B63\u786E
+required.newPassword=\u8BF7\u8F93\u5165\u65B0\u5BC6\u7801
+required.confirmPassword=\u8BF7\u8F93\u5165\u786E\u8BA4\u5BC6\u7801
+dismatch.confirmPassword=\u65B0\u5BC6\u7801\u4E0E\u786E\u8BA4\u5BC6\u7801\u4E0D\u4E00\u81F4
+#--- end change password ---
