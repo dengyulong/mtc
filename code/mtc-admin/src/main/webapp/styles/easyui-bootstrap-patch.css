@@ -1,0 +1,62 @@
+/*bootstrap与easyui混用时，easyui中的datagrid按钮挤压，原因是bootstrap中设计了所有样式中包括icon-的元素宽度统一设置为14px造成*/
+
+[class ^="icon-"],[class *=" icon-"] {
+	display: inline-block;
+	/* width: 14px;
+	height: 14px; */
+	width: auto;
+	height: auto;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 16px;
+	vertical-align: baseline;  //text-top
+	background-image: url("../img/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat
+}
+
+table input,textarea {
+	width: auto;
+	height:auto;
+	margin:auto;
+	padding:auto;
+	line-height: normal;
+}
+
+select {
+	width:auto;
+	height:auto;
+	margin:auto;
+	padding:auto;
+	line-height: normal;
+}
+
+[class *="pagination"] div{
+    clear:both;
+}
+
+[class *="pagination"] input {
+	margin:0px 6px;
+}
+
+[class *="pagination"] table {
+    margin:6px auto auto 4px;
+}
+
+/*********************************me********************************************************/
+ .block-body table {
+    margin-top: 0px;
+}
+
+.datagrid-row-selected {
+    background: none repeat scroll 0 0 #47A447;
+    color: #FFFFFF;
+}
+
+.icon-remove:before {
+    content: "";
+}
+
+.icon-search:before {
+    content: "";
+}

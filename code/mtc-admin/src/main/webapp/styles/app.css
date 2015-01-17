@@ -1,0 +1,5 @@
+.icon {
+    max-width:96px; 
+    width:expression(this.width > 96 ? "96px" : this.width); 
+    height:auto
+}
